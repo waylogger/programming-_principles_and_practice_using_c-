@@ -1,141 +1,0 @@
-9
-
-dir
-14471
-http://svn.clozure.com/publicsvn/openmcl/release/1.6/source/cocoa-ide/ide-contents/Resources/English.lproj
-http://svn.clozure.com/publicsvn/openmcl
-
-
-
-2010-09-11T04:18:31.031114Z
-14251
-jaj
-has-props
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-8bdb8f1d-59ce-db11-9e41-0016172a54ae
-
-MainMenu.nib
-dir
-
-xapropos.nib
-dir
-
-Authenticate.nib
-dir
-
-backtrace.nib
-dir
-
-apropos.nib
-dir
-
-OpenmclInspector.nib
-dir
-
-SearchFiles.nib
-dir
-
-InfoPlist.strings
-file
-
-
-
-
-2010-12-07T21:35:58.636675Z
-b1f2dd3a323a691af8f2c0b497a72f36
-2009-06-01T07:58:38.114471Z
-12177
-gb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-297
-
-Credits.html
-file
-
-
-
-
-2010-12-07T21:35:58.636675Z
-2d096fadb15013b89e3ea138dccfff2b
-2009-06-01T07:47:29.766571Z
-12172
-gb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-522
-
-displaydoc.nib
-dir
-
-ProgressWindow.nib
-dir
-
-xinspector.nib
-dir
-
-preferences.nib
-dir
-
-updateCCL.nib
-dir
-
-inspector.nib
-dir
-
-project.nib
-dir
-
-processes.nib
-dir
-
