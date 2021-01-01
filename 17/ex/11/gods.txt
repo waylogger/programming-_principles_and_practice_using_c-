@@ -1,0 +1,15 @@
+Link* common = new Link{new God{"Zeus","Greese","","Flash"}};
+common = common->add_ordered(common,new Link{new God{"Ares","Greese","","Spear"}});
+common = common->add_ordered(common,new Link{new God{"Afina","Greese","","Spear"}});
+common = common->add_ordered(common,new Link{new God{"Jupiter","Rome","","Staff"}});
+common = common->add_ordered(common,new Link{new God{"Mars","Rome","","Sword"}});
+common = common->add_ordered(common,new Link{new God{"Minerva","Rome","","Spear"}});
+common = common->add_ordered(common,new Link{new God{"Thor","Norve","","Hammer"}});
+common = common->add_ordered(common,new Link{new God{"Odin","Norve","","Spear"}});
+common = common->add_ordered(common,new Link{new God{"Freia","Norve","","Cats"}});
+
+
+
+
+
+common->print_all();

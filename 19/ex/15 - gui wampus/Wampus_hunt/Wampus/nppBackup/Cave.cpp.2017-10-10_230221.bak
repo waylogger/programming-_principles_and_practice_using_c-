@@ -1,0 +1,249 @@
+void Cave::see_rooms()
+{
+	for (int i =0; i < r.size(); ++i)
+	{
+		if (r[i]->get_insider() == Room::Insider::wampus) cout << i << " - " << "Wampus\n";
+		else if (r[i]->get_insider() == Room::Insider::hole) cout << i << " - " <<  "Hole\n";
+		else if (r[i]->get_insider() == Room::Insider::bat) cout << i << " - " <<  "Bat\n";
+		else if (r[i]->get_insider() == Room::Insider::empty) cout << i << " - " <<  "Empty\n";
+		else if (r[i]->get_insider() == Room::Insider::player) cout << i << " - " <<  "Player\n";
+	}
+}
+
+void Cave::spawn()
+{
+	/*
+	Функция зарождения жизни
+	Главная задача функции = размещение по комнатам препятствий - ям, вампуса и летучих мышей
+	Вампус может быть только одни
+	Летучих мышей - 3 
+	Ям - 4
+	
+	для определения содержания конкретной комнаты используется генератор случайных чисел
+	*/
+	srand(time(0));
+	while (true)
+	{
+		
+		for (int i =1; i < r.size(); ++i) // первую комнату трогать нельзя - там игрок
+		{
+		
+		int def = rand()%20; // чтобы увеличить разброс
+		if (def == 0 && wampus_count < 1 && r[i]->get_insider()==Room::Insider::empty) 
+		{
+			r[i]->set_insider(Room::Insider::wampus);
+			//cout << "Wampus\n";
+			++wampus_count;
+		}
+			
+		else if (def == 5 && bats_count < 3 && r[i]->get_insider()==Room::Insider::empty)
+		{
+			r[i]->set_insider(Room::Insider::bat);
+			//cout << "BAT\n";
+			++bats_count;
+		}
+			
+		else if (def == 8 && hole_count < 4 && r[i]->get_insider()==Room::Insider::empty)
+		{
+			r[i]->set_insider(Room::Insider::hole);
+			//cout << "HOLE\n";
+			++hole_count;
+		}
+
+		}
+		if (wampus_count == 1 && bats_count == 3 && hole_count == 4) break;
+	}
+
+}
+
+void Cave::connect()
+{
+	for (int i = 0, j =1; j < r.size();++i,++j)
+	{
+		r[i]->set_forward(r[j]);
+		r[j]->set_back(r[i]);
+		if (j==4)
+		{
+			r[0]->set_back(r[4]);
+			r[4]->set_forward(r[0]);
+			++i;
+			++j;
+		}
+		if (j==14)
+		{
+			r[14]->set_forward(r[5]);
+			r[5]->set_back(r[14]);
+			++i;
+			++j;
+		}
+		
+		if (j==r.size()-1)
+		{
+			r[r.size()-1]->set_forward(r[15]);
+			r[15]->set_back(r[r.size()-1]);
+		}
+	}
+
+set_jump(0,7);
+set_jump(1,9);
+set_jump(2,11);
+set_jump(3,13);
+set_jump(4,5);
+set_jump(6,19);
+set_jump(8,18);
+set_jump(10,17);
+set_jump(12,16);
+set_jump(14,15);
+	
+}
+
+void Cave::correction_font()
+{
+	for (int i=0; i < r.size(); ++i)
+	{
+		r[i]->pieces(2)->set_color(Color::dark_red);
+		dynamic_cast<Graph_lib::Text*>(r[i]->pieces(2))->set_font_size(20);
+	}
+	
+}
+void Cave::bridge() {
+	
+	Point p1, p2;
+	
+	for (int i =0, j =1;j < r.size(); ++i,++j)
+	{
+		p1 = r[i]->pieces(1)->point(0);
+		p2 = r[j]->pieces(1)->point(0);
+		bridges.push_back(new Line{p1,p2});
+		if (j == 4) 
+		{
+			p1 = r[0]->pieces(1)->point(0);
+			p2 = r[j]->pieces(1)->point(0);
+			bridges.push_back(new Line{p1,p2});
+			++i;
+			++j;
+		}
+		
+		if (j == 14) 
+		{
+			p1 = r[5]->pieces(1)->point(0);
+			p2 = r[j]->pieces(1)->point(0);
+			bridges.push_back(new Line{p1,p2});
+			++i;
+			++j;
+		}
+		
+		if (j == r.size()-1) 
+		{
+			p1 = r[15]->pieces(1)->point(0);
+			p2 = r[j]->pieces(1)->point(0);
+			bridges.push_back(new Line{p1,p2});
+		}
+		
+		
+		
+		
+		
+	}
+	
+	bridges.push_back(new Line{r[0]->pieces(1)->point(0),r[7]->pieces(1)->point(0)});
+	bridges.push_back(new Line{r[1]->pieces(1)->point(0),r[9]->pieces(1)->point(0)});
+	bridges.push_back(new Line{r[2]->pieces(1)->point(0),r[11]->pieces(1)->point(0)});
+	bridges.push_back(new Line{r[3]->pieces(1)->point(0),r[13]->pieces(1)->point(0)});
+	bridges.push_back(new Line{r[4]->pieces(1)->point(0),r[5]->pieces(1)->point(0)});
+	
+	bridges.push_back(new Line{r[6]->pieces(1)->point(0),r[19]->pieces(1)->point(0)});
+	bridges.push_back(new Line{r[8]->pieces(1)->point(0),r[18]->pieces(1)->point(0)});
+	bridges.push_back(new Line{r[10]->pieces(1)->point(0),r[17]->pieces(1)->point(0)});
+	bridges.push_back(new Line{r[12]->pieces(1)->point(0),r[16]->pieces(1)->point(0)});
+	bridges.push_back(new Line{r[14]->pieces(1)->point(0),r[15]->pieces(1)->point(0)});
+	
+	for (int i =0; i < bridges.size();++i)
+	{
+		bridges[i]->set_color(Color::black);
+		bridges[i]->set_style(Line_style{Line_style::dot,6});
+		window->attach(*bridges[i]);
+	}
+	
+	
+	
+}
+
+Cave::Cave(const string& s, Graph_lib::Window* w, Button* b)
+		: window{w}, ButtonTryAgain{b}, er {new Effect_of_room{window,this}}
+			{
+	
+				ifstream ifs {s};
+				while (true){
+					
+					r.push_back(read_room(ifs));
+					if (ifs.eof()) break;
+				}
+				
+				 for (int i = 0; i < r.size();++i)
+				{
+					if (r[i]->number_of_curr_room() == -1) r.erase(r.begin()+i);
+				} 
+				bridge();
+				correction_font();
+				for (int i =0; i < r.size();++i) r[i]->attach(w);
+				connect();
+				r[0]->set_insider(Room::Insider::player);
+				spawn();
+				//see_rooms();
+				
+			}
+
+int Cave::handle(int q){
+	/*
+	Функция обработки событий в пешере
+	Эта функция вызывается в обратотчике событий Wampus_window, 
+	только если событие - это левый или правый щелчек мыши.
+	
+	Если иное не предусмотрено, то любое из этих событие вызывает просто фунцию blink();
+	Кроме того, ЛКМ перемещает игрока в выбранную комнату, если игрок рядом
+	ПКМ задает траекторию стрельбы
+	*/
+		
+		Point p;
+		p.x = Fl::event_x();
+		p.y = Fl::event_y();
+		int num = 0;
+		bool move = false;
+		
+		
+		
+		for (int i = 0; i < r.size();++i)
+		{
+			if (is_insider_of_circle(r[i]->pieces(0), p))
+			{
+				num = i;
+				er->set_room(r[num]);
+				if (q == FL_PUSH &&  er->player_is_close() && Fl::event_button1() != 0)
+				{
+					er->player_move();
+					return i;
+				}
+			
+				if (q == FL_PUSH && Fl::event_button3() != 0  && er->is_close() )
+				{
+					er->load();
+					if (er->ammo() == 3)
+					{
+						er->shooting();
+						window->redraw();
+					}
+						
+				}
+					
+				else if (q == FL_PUSH && Fl::event_button1() != 0 && r[num]->get_insider() != Room::Insider::player)
+					er->blink();
+				else if (q == FL_PUSH && Fl::event_button3() != 0 && r[num]->get_insider() != Room::Insider::player)
+					er->blink();
+			}				
+		}
+		
+		
+		
+	return q;
+	}

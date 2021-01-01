@@ -1,0 +1,10 @@
+﻿  Source.cpp
+d:\ms vs\vc\include\gui.h(105): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\gui.h(110): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\gui.h(115): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\graph.h(102): warning C4018: <: несоответствие типов со знаком и без знака
+  d:\ms vs\vc\include\graph.h(102): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\users\wlr\documents\visual studio 2015\projects\13\task\win32project1\win32project1\source.cpp(34): note: см. ссылку на создание экземпляров функции шаблон при компиляции "Graph_lib::Vector_ref<Graph_lib::Image>::~Vector_ref(void)"
+  c:\users\wlr\documents\visual studio 2015\projects\13\task\win32project1\win32project1\source.cpp(34): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Graph_lib::Vector_ref<Graph_lib::Image>"
+  Win32Project1.vcxproj -> C:\Users\wLr\documents\visual studio 2015\Projects\13\task\Win32Project1\Debug\Win32Project1.exe
+  Win32Project1.vcxproj -> C:\Users\wLr\documents\visual studio 2015\Projects\13\task\Win32Project1\Debug\Win32Project1.pdb (Full PDB)

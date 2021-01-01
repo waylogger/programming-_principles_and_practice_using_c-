@@ -1,0 +1,85 @@
+Year - 1990:
+month - 1:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 2016:
+month - 2:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 2010:
+month - 3:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 2015:
+month - 4:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 2013:
+month - 5:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 2014:
+month - 6:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 2017:
+month - 7:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 2028:
+month - 8:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 2093:
+month - 9:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 1983:
+month - 10:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 2353:
+month - 11:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 4565:
+month - 0:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 1869:
+month - 1:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 1898:
+month - 2:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 1917:
+month - 3:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 1978:
+month - 4:
+Day - 1, hour - 2, temperature - 3
+
+
+Year - 1799:
+month - 5:
+Day - 1, hour - 2, temperature - 3
+
+

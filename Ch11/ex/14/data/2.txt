@@ -1,0 +1,11 @@
+isspace - 0
+isalpha - 0
+isdigit - 5
+isxdigit - 5
+isupper - 0
+islower  - 0
+isalnum  - 5
+iscntrl  - 0
+ispunct  - 0
+isprint  - 5
+isgraph  - 5

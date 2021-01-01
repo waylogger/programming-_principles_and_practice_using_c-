@@ -1,0 +1,31 @@
+1. Создать 3 файла:
+my.h
+my.cpp
+use.cpp
+
+my.h
+extern int foo;
+void print_foo();
+void print (int);
+
+my.cpp
+#include <std_lib_facilitieh.s>
+#include <my.h>
+
+определение 
+print_foo ()
+cout foo
+ 
+определение
+print(int i)
+cout i
+
+use.cpp
+include <my.h>
+include <iostream>
+
+int main () {
+foo = 7
+print_foo()
+print(99)
+{char cc; cin >> cc;}

@@ -1,0 +1,4 @@
+from
+D:\Programms\Ch10\ex\7\Reboot\Data\input.txt 
+to
+D:\Programms\Ch10\ex\7\Reboot\Data\output.txt

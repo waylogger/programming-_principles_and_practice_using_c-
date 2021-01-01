@@ -1,0 +1,40 @@
+﻿  Source.cpp
+d:\ms vs\vc\include\gui.h(105): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\gui.h(110): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\gui.h(115): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\arrow.cpp(38): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\arrow.cpp(39): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\arrow.cpp(49): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\arrow.cpp(50): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\box.cpp(57): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\box.cpp(59): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\source.cpp(73): warning C4286: std::runtime_error &: перехвачено базовым классом ("std::exception &") в строке 68
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(12): warning C4715: n: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(34): warning C4715: e: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(23): warning C4715: s: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(45): warning C4715: w: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(56): warning C4715: center: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(67): warning C4715: ne: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(78): warning C4715: se: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(100): warning C4715: nw: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(89): warning C4715: sw: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(111): warning C4715: center: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(124): warning C4715: n: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(137): warning C4715: s: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(150): warning C4715: w: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(163): warning C4715: e: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(176): warning C4715: nw: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(189): warning C4715: sw: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(215): warning C4715: ne: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(202): warning C4715: se: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(226): warning C4715: center: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(237): warning C4715: n: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(248): warning C4715: w: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(259): warning C4715: s: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(281): warning C4715: nw: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(292): warning C4715: sw: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(270): warning C4715: e: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(303): warning C4715: se: значение возвращается не при всех путях выполнения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\1-2\arc-box\arc\connecting.cpp(314): warning C4715: ne: значение возвращается не при всех путях выполнения
+  Arc.vcxproj -> C:\Users\wLr\Documents\Visual Studio 2015\Projects\13\ex\1-2\Arc-Box\Debug\Arc.exe
+  Arc.vcxproj -> C:\Users\wLr\Documents\Visual Studio 2015\Projects\13\ex\1-2\Arc-Box\Debug\Arc.pdb (Full PDB)

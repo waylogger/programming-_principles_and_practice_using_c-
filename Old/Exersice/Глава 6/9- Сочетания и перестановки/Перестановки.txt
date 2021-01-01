@@ -1,0 +1,6 @@
+
+int permutation (int a, int b)
+{
+int prem = factorial (a)/factorial(a-b);
+return rerm;
+};

@@ -1,0 +1,91 @@
+#include <std_lib_facilities.h>
+
+vector<string>nouns;
+vector<string>verbs;
+vector<string>conjunctions;
+
+void init ()
+{
+
+nouns.push_back("birds");
+nouns.push_back("fish");
+nouns.push_back("C++");
+
+verbs.push_back("fly");
+verbs.push_back("swim");
+verbs.push_back("rules");
+
+conjunctions.push_back("and");
+conjunctions.push_back("but");
+conjunctions.push_back("or");
+}
+
+bool is_nouns (string w)
+{
+for (int i = 0; i<nouns.size (); ++i)
+if (w==nouns[i]) return true;
+return false;
+}
+
+bool is_verbs (string w)
+{
+for (int i =0; i <verbs.size(); ++i)
+if (w==verbs[i]) return true;
+return false;
+}
+
+bool is_conjunctions (string w)
+{
+for (int i = 0; i<conjunctions.size (); ++i)
+if (w==conjunctions[i]) return true;
+return false;
+}
+
+bool sentence ()
+{
+string w;
+cin >> w;
+if (!is_nouns(w)) return false;
+
+string w2;
+cin >> w2;
+if (!is_verbs(w2)) return false;
+
+string w3;
+cin >> w3;
+
+if (w3==".") return true;
+if (!is_conjunctions(w3)) return false;
+
+return sentence ();
+}
+
+int main ()
+try
+{
+	setlocale(0, "");
+	cout << "Введите предложение\n";
+init ();
+	while (cin)
+	{
+	bool s = sentence ();
+	if (s) cout << "OK\n";
+	else cout << "Not ok\n";
+	cout << "Попробуй ещё раз\n";
+}
+keep_window_open ("`");
+}
+
+catch (exception & e)
+{
+cerr << e.what ();
+keep_window_open ("`");
+}
+
+
+
+
+
+
+
+

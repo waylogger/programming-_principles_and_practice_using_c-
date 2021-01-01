@@ -1,0 +1,156 @@
+1. Автокод
+2. Ассемблер
+
+3. LISP
+
+5. Fortran
+
+6. COBOL
+
+7. Algol60
+
+8. Simula
+
+9. BCPL
+
+10. PL/1
+
+11. Algol68
+
+12.Pascal
+
+Pascal
+
+PROGRAM Helloworld;
+
+USES
+	WinCRT;
+
+BEGIN
+	InitWinCRT;
+	WriteLn('Hello world!');
+	ReadLn;
+	DoneWinCRT;
+END.
+
+
+
+
+13. Classic C
+
+#include <stdio.h>
+
+int main()
+{
+printf("Hello world!\n");
+}
+
+
+14. FLOW-MATIC
+
+
+
+
+15. THE
+16. Algol W
+17. PL/360
+18. Euler
+19. Modula
+20. Modula -2 
+MODULE Helloworld;
+FROM InOut IMPORT WriteString,WriteLn;
+BEGIN
+writeString("Hello world");
+WriteLn;
+END HelloWorld
+
+21. Oberon
+
+MODULE Helloworld$
+IMPORT OUT;
+BEGIN
+	Out.String("Hello world!");
+	Out.Ln;
+END Helloworld;
+
+
+
+22. Oberon -2
+23. Lola
+24. Turbo Paskal
+25. Delphi
+Program Hello_world;
+{$APPTYPE CONSOLE}
+Begin
+WriteLn('Hello world');
+End.
+
+26. C#
+
+class Helloworld{
+
+static void main()
+{
+System.Console.WriteLine("Hello world");
+}
+
+}
+
+27. Ada
+
+with Text_OI;
+procedure Hello_World is
+begin 
+Text_IO.Put_Line("Hello world");
+end Hello_world;
+
+28. AWK
+
+BEGIN{
+print "Hello world";
+}
+
+29. AMPL
+30. CPL
+31.B
+32.Smalltalk
+
+Framewindow new
+	title: "Hello worlf";
+	open
+
+
+33. Eiffel
+
+class HELLO
+create run
+feature run
+do
+print ("Hello world!%N")
+end
+end
+
+34. Python
+print ("Hello World");
+35. Java
+class Helloworld{
+static public void main(String args[]){
+System.out.println("Hello world")} 
+
+}
+36. PHP
+>?php
+echo 'Hello world!';
+&>
+37. JavaScript
+console.log("Hello world");
+38. ObjectPascal
+39.Perl
+say 'Hello world';
+40. Visual Basic
+
+Imports System.Console
+Public Share Sub Main()
+	WriteLine("Hello, world!");
+End Sub
+End Class

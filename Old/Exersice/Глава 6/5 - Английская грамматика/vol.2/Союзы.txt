@@ -1,0 +1,16 @@
+string union ()
+{
+string s = get_string ();
+switch (s)
+{
+case 'and':
+case 'or':
+case 'but':
+return s;
+string s = get_string ();
+
+break;
+default
+cin.putback(s);
+};
+

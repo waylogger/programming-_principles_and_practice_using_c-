@@ -1,0 +1,11 @@
+int factorial (int f)
+{
+inz z = 0;
+while (f>0)
+{
+z *=f;
+--f;
+}
+return z;
+};
+

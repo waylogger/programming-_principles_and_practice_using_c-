@@ -1,0 +1,2 @@
+D:\Programms\Ch10\ex\2\Data\1.txt
+D:\Programms\Ch10\ex\2\Data\raw_temps.txt

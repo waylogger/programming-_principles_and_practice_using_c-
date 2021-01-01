@@ -1,0 +1,8 @@
+; SLIME 2011-02-04 HELLO-BRO
+ HELLO-BRO
+
+CL-USER> (hello-bro)
+
+"hello bro" 
+"hello bro"
+CL-USER> 

@@ -1,0 +1,14 @@
+﻿  Source.cpp
+d:\ms vs\vc\include\gui.h(105): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\gui.h(110): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\gui.h(115): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\13\90triangle\90triangle\source.cpp(11): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\13\90triangle\90triangle\source.cpp(12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\13\90triangle\90triangle\source.cpp(39): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\13\90triangle\90triangle\source.cpp(40): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\ms vs\vc\include\graph.h(102): warning C4018: <: несоответствие типов со знаком и без знака
+  d:\ms vs\vc\include\graph.h(102): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\users\wlr\documents\visual studio 2015\projects\13\ex\13\90triangle\90triangle\source.cpp(76): note: см. ссылку на создание экземпляров функции шаблон при компиляции "Graph_lib::Vector_ref<R_Triangle>::~Vector_ref(void)"
+  c:\users\wlr\documents\visual studio 2015\projects\13\ex\13\90triangle\90triangle\source.cpp(76): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Graph_lib::Vector_ref<R_Triangle>"
+  90Triangle.vcxproj -> C:\Users\wLr\documents\visual studio 2015\Projects\13\ex\13\90Triangle\Debug\90Triangle.exe
+  90Triangle.vcxproj -> C:\Users\wLr\documents\visual studio 2015\Projects\13\ex\13\90Triangle\Debug\90Triangle.pdb (Full PDB)

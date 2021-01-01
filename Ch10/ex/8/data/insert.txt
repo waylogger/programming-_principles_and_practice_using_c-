@@ -1,0 +1,3 @@
+D:\Programms\Ch10\ex\8\data\1.txt
+D:\Programms\Ch10\ex\8\data\2.txt
+D:\Programms\Ch10\ex\8\data\3.txt

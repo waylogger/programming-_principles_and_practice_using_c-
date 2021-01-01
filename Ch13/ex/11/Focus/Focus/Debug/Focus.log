@@ -1,0 +1,13 @@
+﻿  Source.cpp
+d:\ms vs\vc\include\gui.h(105): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\gui.h(110): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\gui.h(115): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\11\focus\focus\source.cpp(19): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\11\focus\focus\source.cpp(21): warning C4305: аргумент: усечение из "int" к "char"
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\11\focus\focus\source.cpp(21): warning C4309: аргумент: усечение константного значения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\11\focus\focus\source.cpp(24): warning C4305: аргумент: усечение из "int" к "char"
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\11\focus\focus\source.cpp(24): warning C4309: аргумент: усечение константного значения
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\11\focus\focus\source.cpp(40): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\wlr\documents\visual studio 2015\projects\13\ex\11\focus\focus\source.cpp(41): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Focus.vcxproj -> C:\Users\wLr\documents\visual studio 2015\Projects\13\ex\11\Focus\Debug\Focus.exe
+  Focus.vcxproj -> C:\Users\wLr\documents\visual studio 2015\Projects\13\ex\11\Focus\Debug\Focus.pdb (Full PDB)

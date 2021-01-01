@@ -1,0 +1,17 @@
+string verb ()
+{
+string s = get_string ();
+switch (s)
+{
+case 'rules':
+case 'fly':
+case 'swim':
+
+return s;
+string s = get_string ();
+
+break;
+default
+cin.putback(s);
+};
+

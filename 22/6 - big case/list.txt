@@ -1,0 +1,11 @@
+Ассемблер
+LISP
+Classic C
+Delphi
+C#
+Ada
+Perl
+Python
+Java
+PHP
+JavaScript

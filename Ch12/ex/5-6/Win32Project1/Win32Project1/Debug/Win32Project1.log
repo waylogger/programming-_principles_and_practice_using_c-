@@ -1,0 +1,6 @@
+﻿  Source.cpp
+d:\ms vs\vc\include\gui.h(105): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\gui.h(110): warning C4018: <: несоответствие типов со знаком и без знака
+d:\ms vs\vc\include\gui.h(115): warning C4018: <: несоответствие типов со знаком и без знака
+  Win32Project1.vcxproj -> c:\users\wlr\documents\visual studio 2015\Projects\12\ex\5\Win32Project1\Debug\Win32Project1.exe
+  Win32Project1.vcxproj -> c:\users\wlr\documents\visual studio 2015\Projects\12\ex\5\Win32Project1\Debug\Win32Project1.pdb (Full PDB)

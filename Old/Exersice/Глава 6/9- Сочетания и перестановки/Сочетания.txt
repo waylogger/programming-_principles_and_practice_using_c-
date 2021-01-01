@@ -1,0 +1,5 @@
+int combine (int a, inb b )
+{
+int comb = permutation (a,b)/factorial(b);
+return comb;
+};

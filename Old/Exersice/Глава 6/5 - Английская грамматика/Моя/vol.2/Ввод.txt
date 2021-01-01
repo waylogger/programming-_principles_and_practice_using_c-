@@ -1,0 +1,29 @@
+Обработка данных ввода
+
+string get_string ()
+{
+setlocale (0, " ");
+while (cin)
+{
+string s;
+cin >> s;
+swith (s)
+{
+case 'and':
+case 'or':
+case 'but':
+case 'birds':
+case 'The birds':
+case 'fish':
+case 'the fish':
+case 'C++':
+case 'the C++':
+case 'rules':
+case 'fly':
+case 'swim':
+case ' . ':
+return s;
+default:
+error ("Непредвиденное значение")
+}
+};

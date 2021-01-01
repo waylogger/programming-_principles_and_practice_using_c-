@@ -1,0 +1,19 @@
+string substantive ()
+{
+string s = get_string ();
+switch (s)
+{
+case 'birds':
+case 'The birds':
+case 'fish':
+case 'The fish':
+case 'C++':
+case 'The C++':
+return s;
+string s = get_string ();
+
+break;
+default
+cin.putback(s);
+};
+

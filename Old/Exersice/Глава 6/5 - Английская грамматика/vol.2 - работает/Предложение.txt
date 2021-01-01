@@ -1,0 +1,16 @@
+string sentence ()
+{
+string s = " ";
+if (union().size()>0)
+{
+string s = sentence () + union () + sentence ();
+return s;
+}
+
+if (union().size() = 0)
+{
+string s = substantive () + verb ();
+return s;
+}
+
+};

@@ -1,0 +1,14 @@
+Pascal
+
+PROGRAM Helloworld;
+
+USES
+	WinCRT;
+
+BEGIN
+	InitWinCRT;
+	WriteLn('Hello world!');
+	ReadLn;
+	DoneWinCRT;
+END.
+
